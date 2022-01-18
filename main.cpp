@@ -9,7 +9,6 @@ class Swimmer {
 public:
     Swimmer(std::string inName, int inSpeed) : name(inName), speed(inSpeed), resultSec(0) {
         assert(inSpeed > 0);
-        std::cout << "inSpeed: " << inSpeed << std::endl;
     }
 
     std::string getName() {
